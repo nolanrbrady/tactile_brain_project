@@ -1,0 +1,67 @@
+12.8019 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd3a4529190>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd3a604d2e0>, multiSample=False, name='window1', numSamples=2, pos=(480, 330), screen=0, size=array([3840, 2160]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.8021 	EXP 	window1: mouseVisible = True
+12.8021 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.8021 	EXP 	window1: recordFrameIntervals = False
+12.8825 	EXP 	window1: recordFrameIntervals = True
+12.9734 	WARNING 	t of last frame was 15.02ms (=1/66)
+12.9916 	WARNING 	t of last frame was 10.39ms (=1/96)
+13.0585 	EXP 	Screen (0) actual frame rate measured at 117.74Hz
+13.0586 	EXP 	window1: recordFrameIntervals = False
+13.0946 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+15.3603 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Beginning instructiuons.....', units='height', win=Window(...), wrapWidth=1)
+15.3905 	EXP 	Created tPrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='tPrompt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.3966 	EXP 	Created TapL = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TapL', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Tap left fingers for 30 seconds.', units='height', win=Window(...), wrapWidth=1)
+15.4012 	EXP 	Created break1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='break1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='take 30 second break.', units='height', win=Window(...), wrapWidth=1)
+15.4062 	EXP 	Created TapR = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TapR', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Tap right fingers for 30 seconds.', units='height', win=Window(...), wrapWidth=1)
+15.4101 	EXP 	Created break2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='break2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Take a 30 second break. ', units='height', win=Window(...), wrapWidth=1)
+15.4175 	EXP 	Created CD_Prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='CD_Prompt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.4222 	EXP 	Created Count_back_from_onehundred = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Count_back_from_onehundred', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Begin counting back from 100.', units='height', win=Window(...), wrapWidth=1)
+15.4266 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Take a 30 second break.', units='height', win=Window(...), wrapWidth=1)
+15.4345 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of Trial\n\nThank you for participating', units='height', win=Window(...), wrapWidth=1)
+15.4677 	EXP 	instructions: autoDraw = True
+25.4517 	EXP 	instructions: autoDraw = False
+25.4517 	EXP 	tPrompt: autoDraw = True
+45.4431 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+45.4434 	EXP 	New trial (rep=0, index=0): None
+45.4519 	EXP 	tPrompt: autoDraw = False
+45.4519 	EXP 	TapL: autoDraw = True
+75.4445 	EXP 	break1: autoDraw = True
+75.4563 	EXP 	TapL: autoDraw = False
+105.4554 	EXP 	TapR: autoDraw = True
+105.4719 	EXP 	break1: autoDraw = False
+135.4541 	EXP 	break2: autoDraw = True
+135.4627 	EXP 	TapR: autoDraw = False
+165.4382 	EXP 	New trial (rep=1, index=0): None
+165.4463 	EXP 	TapL: autoDraw = False
+165.4463 	EXP 	break1: autoDraw = False
+165.4463 	EXP 	TapR: autoDraw = False
+165.4463 	EXP 	break2: autoDraw = False
+165.4463 	EXP 	TapL: autoDraw = True
+195.4356 	EXP 	break1: autoDraw = True
+195.4524 	EXP 	TapL: autoDraw = False
+225.4345 	EXP 	break1: autoDraw = False
+225.4345 	EXP 	TapR: autoDraw = True
+255.4499 	EXP 	TapR: autoDraw = False
+255.4499 	EXP 	break2: autoDraw = True
+285.4654 	EXP 	TapL: autoDraw = False
+285.4654 	EXP 	break1: autoDraw = False
+285.4654 	EXP 	TapR: autoDraw = False
+285.4654 	EXP 	break2: autoDraw = False
+285.4654 	EXP 	CD_Prompt: autoDraw = True
+300.4420 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+300.4423 	EXP 	New trial (rep=0, index=0): None
+300.4534 	EXP 	CD_Prompt: autoDraw = False
+300.4534 	EXP 	Count_back_from_onehundred: autoDraw = True
+330.4399 	EXP 	text_2: autoDraw = True
+330.4805 	EXP 	Count_back_from_onehundred: autoDraw = False
+360.4381 	EXP 	New trial (rep=1, index=0): None
+360.4461 	EXP 	Count_back_from_onehundred: autoDraw = False
+360.4461 	EXP 	text_2: autoDraw = False
+360.4461 	EXP 	Count_back_from_onehundred: autoDraw = True
+390.4449 	EXP 	text_2: autoDraw = True
+390.4534 	EXP 	Count_back_from_onehundred: autoDraw = False
+420.4606 	EXP 	Count_back_from_onehundred: autoDraw = False
+420.4606 	EXP 	text_2: autoDraw = False
+420.4606 	EXP 	text: autoDraw = True
+430.4432 	EXP 	text: autoDraw = False
+430.4568 	EXP 	window1: mouseVisible = True

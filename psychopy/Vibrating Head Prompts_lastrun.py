@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on Mon Jun  5 14:42:06 2023
+    on Thu Jun  8 14:18:29 2023
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -54,7 +54,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='/Users/nolanbrady/Desktop/Tactile_Brain/Vibrating Head Prompts_lastrun.py',
+    originPath='/Users/nolanbrady/Desktop/Tactile_Brain/psychopy/Vibrating Head Prompts_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -325,7 +325,7 @@ thisExp.addData('tPrompt.started', tPrompt.tStartRefresh)
 thisExp.addData('tPrompt.stopped', tPrompt.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-tappingTrials = data.TrialHandler(nReps=3.0, method='random', 
+tappingTrials = data.TrialHandler(nReps=2.0, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='tappingTrials')
@@ -470,7 +470,7 @@ for thisTappingTrial in tappingTrials:
     tappingTrials.addData('break2.stopped', break2.tStopRefresh)
     thisExp.nextEntry()
     
-# completed 3.0 repeats of 'tappingTrials'
+# completed 2.0 repeats of 'tappingTrials'
 
 
 # ------Prepare to start Routine "Countdown_Prompt"-------
@@ -543,7 +543,7 @@ thisExp.addData('CD_Prompt.started', CD_Prompt.tStartRefresh)
 thisExp.addData('CD_Prompt.stopped', CD_Prompt.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-countdownTrials = data.TrialHandler(nReps=3.0, method='random', 
+countdownTrials = data.TrialHandler(nReps=2.0, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='countdownTrials')
@@ -650,7 +650,7 @@ for thisCountdownTrial in countdownTrials:
     countdownTrials.addData('text_2.stopped', text_2.tStopRefresh)
     thisExp.nextEntry()
     
-# completed 3.0 repeats of 'countdownTrials'
+# completed 2.0 repeats of 'countdownTrials'
 
 
 # ------Prepare to start Routine "End"-------
